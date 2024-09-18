@@ -1,11 +1,11 @@
 import java.time.LocalDate;
 
 public class Main {
-    public static void checkLeapYear(int yearForCheking) {
-        if (yearForCheking >= 1584 && ((yearForCheking % 400 == 0) || (yearForCheking % 100 != 0 && yearForCheking % 4 == 0))) {
-            System.out.println(yearForCheking + " год является високосным.");
+    public static void checkLeapYear(int yearForChecking) {
+        if (yearForChecking >= 1584 && ((yearForChecking % 400 == 0) || (yearForChecking % 100 != 0 && yearForChecking % 4 == 0))) {
+            System.out.println(yearForChecking + " год является високосным.");
         } else {
-            System.out.println(yearForCheking + " год не является високосным.");
+            System.out.println(yearForChecking + " год не является високосным.");
         }
     }
 
